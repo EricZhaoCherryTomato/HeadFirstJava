@@ -14,7 +14,6 @@ public class CurrentConditionsDisplay implements Observer, DisplayElement {
     Observable observable;
     private float temperature;
     private float humidity;
-    private Subject weatherData;
     
     public CurrentConditionsDisplay(Observable observable){
         this.observable = observable;

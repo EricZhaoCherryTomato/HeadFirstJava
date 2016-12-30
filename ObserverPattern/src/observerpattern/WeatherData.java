@@ -5,7 +5,6 @@
  */
 package observerpattern;
 
-import java.util.ArrayList;
 import java.util.Observable;
 
 /**
