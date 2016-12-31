@@ -3,7 +3,10 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package factorypattern;
+package factorypattern.ConcreteClasses;
+
+import factorypattern.AstractClasses.PizzaStore;
+import factorypattern.AstractClasses.Pizza;
 
 /**
  *

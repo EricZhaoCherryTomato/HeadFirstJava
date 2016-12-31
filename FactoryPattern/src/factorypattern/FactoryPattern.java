@@ -5,6 +5,10 @@
  */
 package factorypattern;
 
+import factorypattern.ConcreteClasses.NYPizzaStore;
+import factorypattern.AstractClasses.PizzaStore;
+import factorypattern.AstractClasses.Pizza;
+
 /**
  *
  * @author zhaoye

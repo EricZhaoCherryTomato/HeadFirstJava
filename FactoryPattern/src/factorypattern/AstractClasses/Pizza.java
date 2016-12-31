@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package factorypattern;
+package factorypattern.AstractClasses;
 
 import java.util.ArrayList;
 
@@ -13,10 +13,10 @@ import java.util.ArrayList;
  */
 public abstract class Pizza {
 
-    String name;
-    String dough;
-    String sauce;
-    ArrayList toppings = new ArrayList();
+    protected String name;
+    protected String dough;
+    protected String sauce;
+    protected ArrayList toppings = new ArrayList();
     
     void prepare() {
         System.out.println("Preparing " + name);
