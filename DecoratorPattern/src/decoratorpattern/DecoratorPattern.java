@@ -21,7 +21,7 @@ public class DecoratorPattern {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        Beverage beverage = new Expresso();
+         Beverage beverage = new Expresso();
         System.out.println(beverage.getDescription()
                             + " $" + beverage.cost());
         
