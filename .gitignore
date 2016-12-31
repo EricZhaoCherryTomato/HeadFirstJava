@@ -13,3 +13,7 @@ hs_err_pid*
 /HeadFirstExperiment/nbproject/private/
 /ObserverPattern/nbproject/private/
 /ObserverPattern/build/
+/DecoratorPattern/nbproject/private/
+/DecoratorPattern/build/
+/FactoryPattern/nbproject/private/
+/FactoryPattern/build/
