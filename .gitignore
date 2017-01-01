@@ -17,3 +17,4 @@ hs_err_pid*
 /DecoratorPattern/build/
 /FactoryPattern/nbproject/private/
 /FactoryPattern/build/
+/SingletonPattern/nbproject/private/
