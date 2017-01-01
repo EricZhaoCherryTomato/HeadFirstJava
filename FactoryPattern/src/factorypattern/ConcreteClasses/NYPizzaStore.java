@@ -7,6 +7,7 @@ package factorypattern.ConcreteClasses;
 
 import factorypattern.AstractClasses.PizzaStore;
 import factorypattern.AstractClasses.Pizza;
+import factorypattern.AstractClasses.PizzaIngredientFactory;
 
 /**
  *
@@ -16,12 +17,15 @@ public class NYPizzaStore extends PizzaStore{
 
     @Override
     protected Pizza createPizza(String type) {
+        Pizza pizza = null;
+        PizzaIngredientFactory ingredientFactory =
+                new NYPizzaIngredientFactory();
       if(type.equals("cheese")){
-          return new NYStyleCheesePizza();
+          pizza = new NYStyleCheesePizza(ingredientFactory);
       }  else if(type.equals("veggie")){
           return new NYStyleVeggiePizza();
       } 
-        return null;
+        return pizza;
     }
     
 }

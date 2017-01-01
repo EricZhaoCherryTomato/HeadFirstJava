@@ -6,6 +6,7 @@
 package factorypattern.ConcreteClasses;
 
 import factorypattern.AstractClasses.Pizza;
+import factorypattern.AstractClasses.PizzaIngredientFactory;
 
 
 /**
@@ -14,13 +15,20 @@ import factorypattern.AstractClasses.Pizza;
  */
 public class NYStyleCheesePizza extends Pizza  {
 
+    PizzaIngredientFactory ingredientFactory;
 
-    public NYStyleCheesePizza() {
+    public NYStyleCheesePizza(PizzaIngredientFactory pizzaIngredientFactory ) {
         name = "NY Style Sauce and Cheese Pizza";
         dough = "Thin Curst Dough";
         sauce = "Marinara Sauce";
         
         toppings.add("Grated Reggiano Cheese");
+        this.ingredientFactory = pizzaIngredientFactory;
+    }
+
+    public void prepare() {
+        System.out.println("Preparing ");
+        ingredientFactory.createDough();
     }
     
 }
