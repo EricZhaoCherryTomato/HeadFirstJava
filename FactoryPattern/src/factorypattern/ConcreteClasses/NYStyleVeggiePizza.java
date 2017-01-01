@@ -15,5 +15,10 @@ public class NYStyleVeggiePizza extends Pizza{
 
     public NYStyleVeggiePizza() {
     }
+
+    
+    public void prepare() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
     
 }
