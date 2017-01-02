@@ -18,3 +18,5 @@ hs_err_pid*
 /FactoryPattern/nbproject/private/
 /FactoryPattern/build/
 /SingletonPattern/nbproject/private/
+/CommandPattern/nbproject/private/
+/CommandPattern/build/
