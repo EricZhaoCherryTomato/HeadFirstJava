@@ -20,3 +20,5 @@ hs_err_pid*
 /SingletonPattern/nbproject/private/
 /CommandPattern/nbproject/private/
 /CommandPattern/build/
+/CompoundPatterns/nbproject/private/
+/CompoundPatterns/build/
